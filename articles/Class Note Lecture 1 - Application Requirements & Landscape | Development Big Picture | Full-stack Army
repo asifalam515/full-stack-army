@@ -1,0 +1,111 @@
+1. What is the function requirement?
+2. What is a nonfunctional requirement?
+3. different between function and non-functional requirements?
+Functional Requirement:
+Whatever our boss or client will say to do. Sometimes they will not say directly but we need to do these things.
+
+
+
+NonFunctional Requirement:
+Secure
+Reliable 
+Easy maintainability
+Awesome usability
+High availability (not the main concern for MVP)
+scalability(not the main concern for MVP)
+Mvp refers to Minimal Viable product
+
+
+
+
+SDLC MODEL:
+
+⇒⇒Project maangement ways:
+1. Waterfall model
+2. Agile
+Or search at google:(software development lifecycle)
+⇛When agile and When Waterfall:
+MVP term exist⇒Agile
+The requirement is solid. It will run at least 5 years and changes after 5 years⇒will use waterfall
+Requrements⇒Design(most important)⇒Implementation⇒Verification⇒Maintenance
+
+
+CHOOSE NECESSARY TECHNOLOGY:
+Requirements:(SRS⇒software requirement specification)
+⇒Google docs, Microsoft office, Notion
+⇒Draw.io(https://www.diagrams.net/).Lucid Chart
+
+
+
+
+Requirement Analysis and Design:
+
+
+ٜ⧭System Desing:
+⇨Architectural Decision
+1. Monolithic(Layered) ⇒easy to develop but very complex to maintain when the application grows.
+
+2.MicrosService: Very hard to develop but easy to maintain (good for those who want hard availability and scalability)
+3.SٜerverLess:(fass function as a service)
+⇒Select Database:
+1. SQL(when we surely know how much data will be,.if the requirement doesn’t change then we will use it.)⇒PostgreSQL,MySQL
+2.NoSQL(if the requirement got changed or will change then we will use it)⇒MongoDB , Casandra
+3.Key Value()⇒Redis,DynamoDB
+4.Graph Database:==>Neo4j
+5.Search Database⇒Elastic search(open source,full text search),Algolia search(Open Ai 3.Natural Language Processing)
+
+
+⧭Software Architecture
+⇨OOP
+⇨OOP Desing Pattern and Principles
+⇨DSA
+⇨Clean Code Architecture
+⇨Problem Solving
+⧭Testing
+1.Test-Driven Development
+2.E2E
+
+
+
+⧭Distribution
+
+1.DevOps
+Continuous plan⇒build ⇒test⇒release⇒deploy⇒operate⇒monitor
+Git and Github
+Linux, SSH
+Circle CI,Travis CI,Jenkis 
+Docker,Docker compose
+Docker Swarm,Kubernetes
+Promotheus,Nagios
+Ansible
+
+2.Cloud Engineering
+VPC(Virtual Private Cloud)
+EC2(Elastic computing cloud)
+s3(Simple Storage Server)
+RDS(Relational Database Service)
+DynamoDB
+Route 53
+Cloud Front(CDN)
+SES(Simple Email Service)
+SQS(Simple Queue Services)
+API Gateway
+Lambda
+Step function
+Cloud Watch
+Cloud Formation,Terraform,CDK
+
+⧭Maintenance
+
+
+
+
+
+
+Decision:
+Architecture-Monolithic
+Database-NoSQL(MongoDB Atlas)
+Backend-NodeJS(Express,Hapi,Fastify)(MVC)
+
+
+
